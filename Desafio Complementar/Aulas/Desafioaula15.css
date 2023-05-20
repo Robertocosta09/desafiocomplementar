@@ -1,0 +1,43 @@
+#grade {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas:
+        "header header Conteudo Conteudo Conteudo"
+        "header header Servicos Servicos Aside"
+        "Menu Menu Servicos Servicos Rodape";
+    width: 95px;
+    height: 600px;
+    gap: 10px;
+
+}
+
+.header {
+    display: flex;
+    grid-area: Header;
+    background-color: darkolivegreen;
+}
+
+.Footer {
+    grid-area: Footer;
+    background-color: aqua;
+}
+
+.Nav {
+    grid-area: Menu;
+    background-color: blue;
+}
+
+#conteudo {
+    grid-area: Conteudo;
+    background-color: brown;
+}
+
+#servicos {
+    grid-area: Servicos;
+    background-color: blueviolet;
+}
+
+.aside {
+    grid-area: aside;
+}

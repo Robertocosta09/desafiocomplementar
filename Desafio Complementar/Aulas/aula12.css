@@ -1,0 +1,43 @@
+* {
+    margin: 0px;
+}
+
+#container {
+    display: flex;
+    font-weight: bolder;
+    color: green;
+    text-align: center;
+}
+
+.jornal-container {
+    background-color: blue;
+    width: 100%;
+
+}
+
+.jornal-container-texto {
+    height: 80%;
+    background-color: purple;
+    display: flex;
+}
+
+.jornal-cabecalho {
+    background-color: orange;
+    height: 1220px;
+    width: 30%;
+}
+
+.jornal-conteudo {
+    width: 80%;
+
+}
+
+.jornal-barralateral {
+    background-color: orange;
+    width: 30%;
+}
+
+.jornal-rodape {
+
+    height: 10%;
+}

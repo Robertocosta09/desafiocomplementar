@@ -1,0 +1,35 @@
+#pagina {
+    display: flex
+}
+
+nav {
+    background-color: yellow;
+
+}
+
+
+header {
+    background-color: orange;
+    height: 50px;
+
+}
+
+#container {
+    background-color: black;
+    display: flex;
+}
+
+article {
+    background-color: green;
+    width: 70%;
+}
+
+aside {
+    background-color: blue;
+    width: 30%;
+
+}
+
+footer {
+    background-color: orange;
+}

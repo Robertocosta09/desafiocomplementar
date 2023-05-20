@@ -1,0 +1,36 @@
+#grade {
+    display: grid;
+    grid-template-columns: 20% auto 15%;
+    grid-template-rows: 100px 1fr 1fr 75px;
+    grid-template-areas:
+        "header header header"
+        "nav content content"
+        "nav footer footer";
+    grid-gap: 5px;
+}
+
+.border {
+    border: 1px solid black;
+}
+
+header {
+    grid-area: header;
+    background-color: pink;
+    height: 50px;
+}
+
+footer {
+    grid-area: footer;
+    background-color: aqua;
+
+}
+
+nav {
+    grid-area: nav;
+    background-color: green;
+}
+
+section {
+    grid-area: content;
+    background-color: brown;
+}
