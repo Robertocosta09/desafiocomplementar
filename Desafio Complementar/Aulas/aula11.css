@@ -1,0 +1,21 @@
+.meu-titulo {
+    color: purple;
+}
+
+.meu-titulo:hover {
+    color: orange;
+    background-color: brown;
+    padding-left: 50px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.site-coder:active {
+    color: pink;
+    background-color: red;
+}
+
+.site-coder:visited {
+    color: aqua;
+    background-color: blue;
+
+}
